@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+seaborn
+geopandas
+matplotlib
+scikit-learn
+scipy
+linearmodels
+openpyxl
+geopandas
+supabase
+python-dotenv
