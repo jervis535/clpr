@@ -575,7 +575,7 @@ def plot_cluster_profile_trends(clustered_df, ncols=3):
             )
  
         ax.set_title(var.replace("_", " ").title())
-        ax.set_xlabel("Tahun")
+        ax.set_xlabel("Year")
         ax.set_ylabel(_UNITS.get(var, "Jumlah rata-rata"))
         ax.set_xticks(years)
         ax.tick_params(axis="x", rotation=45)

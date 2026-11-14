@@ -234,9 +234,9 @@ def build_cluster_map(gdf_base, clustered_df, name_col=None):
         for cid in cluster_ids
     ]
     handles.append(
-        mpatches.Patch(color=NO_DATA_COLOR, label="Tidak ada")
+        mpatches.Patch(color=NO_DATA_COLOR, label="No production")
     )
-    ax.set_title("Cluster Mappig")
+    ax.set_title("Cluster Mapping")
     ax.set_xlabel("Latitude", fontsize=11)
     ax.set_ylabel("Longitude", fontsize=11)
     ax.tick_params(
